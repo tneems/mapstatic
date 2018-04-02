@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.summary = "Static Map Generator"
 
   s.add_runtime_dependency(%q<mini_magick>, [">= 3.6.0", "< 4.4.0"])
-  s.add_runtime_dependency(%q<faraday>, [">= 0.8.8", "< 0.12.0"])
+  s.add_runtime_dependency(%q<faraday>, [">= 0.8.8", "< 0.15.0"])
   s.add_runtime_dependency(%q<thor>, [">= 0.18.1", "< 0.20.0"])
   s.add_runtime_dependency(%q<awesome_print>, [">= 1.2.0", "< 1.7.0"])
   s.add_runtime_dependency(%q<typhoeus>, [">= 0.6.6", "< 0.8.0"])
